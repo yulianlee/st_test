@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(layout="centered")
-
+st.beta_set_page_config(page_title='arisa_ohashi',layout = 'wide', initial_sidebar_state = 'auto')
 
 class Template:
 
